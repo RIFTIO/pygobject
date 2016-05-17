@@ -13,11 +13,11 @@ PKG_NAME="pygobject"
     exit 1
 }
 
-if type lcov >/dev/null 2>&1; then
-    EXTRA_ARGS="--enable-code-coverage"
-else
-    echo "lcov not installed, not enabling code coverage"
-fi
+#if type lcov >/dev/null 2>&1; then
+#    EXTRA_ARGS="--enable-code-coverage"
+#else
+#    echo "lcov not installed, not enabling code coverage"
+#fi
 
 
 which gnome-autogen.sh || {
